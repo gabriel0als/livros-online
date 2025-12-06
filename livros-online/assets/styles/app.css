@@ -6,8 +6,9 @@
 }
 
 :root {
-    --cor-primaria: #FFC107;
-    --cor-secundaria: #343A40;
+    --cor-primaria: #002455;
+    --cor-secundaria: #050E3C;
+    --cor-terciaria: #FF3838;
 }
 
 body {
@@ -30,12 +31,20 @@ main {
     background-color: var(--cor-secundaria);
 }
 
+.bg-cor-tertiary {
+    background-color: var(--cor-terciaria);
+}
+
 .text-primary {
     color: var(--cor-primaria) !important;
 }
 
 .text-secondary {
     color: var(--cor-secundaria) !important;
+}
+
+.text-tertiary {
+    color: var(--cor-terciaria) !important;
 }
 
 
