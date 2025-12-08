@@ -9,6 +9,8 @@
     --cor-primaria: #002455;
     --cor-secundaria: #050E3C;
     --cor-terciaria: #FF3838;
+    --cor-quartenaria: #FF7777;
+    
 }
 
 body {
@@ -45,6 +47,10 @@ main {
 
 .text-tertiary {
     color: var(--cor-terciaria) !important;
+}
+
+.text-quartenary {
+    color: var(--cor-quartenaria) !important;
 }
 
 
