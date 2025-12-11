@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" href="assets/images/favicon/favicon-16x16.png" type="image/png">
+
+  <title>Achados do Potter</title>
+
+  <link href="assets/styles/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/styles/app.css">
+  <link rel="stylesheet" href="assets/styles/produtos.css">
+
+</head>
+
+<body>
+
+  <!-- cabeçalho principal -->
+  <header class="bg-cor-primaria">
+
+    <div class="container">
+
+      <div class="row d-flex justify-content-around">
+
+        <div class="caixa-imagem col-lg-2 my-4 text-center text-lg-start">
+          <img class="logo-harry h-100 w-75 rounded-4" src="assets/images/logo harry potter.jpeg" alt="">
+        </div>
+
+        <div class="col-lg-7 my-4 d-flex align-items-center">
+          <form action="" class="site-search w-100">
+
+            <div class="input-group">
+              <input type="text" class="form-control rounded-pill py-2 px-4 pe-5" placeholder="escolha seu estilo aqui...">
+              <button class="btn position-absolute"> <i class="bi bi-search"></i> </button>
+            </div>
+
+          </form>
+        </div>
+
+        <div class="col-lg-3 d-flex align-items-center justify-content-end">
+
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link text-quartenary" href="#"><i class="bi bi-person-fill"></i> entrar</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-quartenary" href="#"><i class="bi bi-cart-fill position-relative">
+                 <span class="badge position-absolute top-0 start-100 translate-middle bg-danger rounded-circle">3 </span>
+              </i> carrinho</a>
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </header>
+  <!-- /cabeçalho principal -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-cor-secundaria sticky-top">
+
+    <div class="container">
+
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-principal">
+        <i class="navbar-toggler-icon"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menu-principal">
+
+        <ul class="navbar-nav ">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Gêneros de livros</a>
+
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Lançamentos</a></li>
+              <li><a class="dropdown-item" href="#">Suspense</a></li>
+              <li><a class="dropdown-item" href="#">Aventura</a></li>
+            </ul>
+
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!-- /.navbar -->
+
+<div class="bg-cor-quintenary">
+
+  <section class="slideshow">
+
+    <div class="container">
+
+      <div id="carousel" class="carousel slide">
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/images/banners/banner harry.jpeg" class="d-block w-100" alt="">
+          </div>
+
+          <div class="carousel-item">
+            <img src="assets/images/banners/banner potter.jpeg" class="d-block w-100" alt="">
+          </div>
+        </div>
+        <!-- /.carousel-inner -->
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!-- /.slideshow -->
+
+  <section class="banners mt-4">
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-6">
+          <img src="assets/images/banners/12x parcelas.jpeg" class="d-block w-100" alt="">
+        </div>
+
+        <div class="col-md-6">
+          <img src="assets/images/banners/entrega brasil.jpeg" class="d-block w-100" alt="">
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!-- /.banners -->
+
+  <section class="mais-populares mt-5 text-center">
+    <div class="container">
+      <h2 class="text-tertiary">Mais populares</h2>
+    </div>
+  </section>
+  <!-- /.mais-populares -->
+
+  <main class="produtos">
+
+    <div class="container">
+
+      <div class="row">
+
+        <!-- Produto -->
+        <div class="col-md-3">
+          <div class="card card-produto rounded-0 border-0" style="height: 70vh;">
+            <img style="height: 50vh;" src="assets/images/produtos/thumb/minera-mcgonal.jpeg" class="card-img-top rounded-0" alt="...">
+            <div class="card-body">
+
+              <h5 class="card-title">Minera Mcgonall: A decana da Transformação</h5>
+
+              <p class="card-text text-quartenary">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </p>
+
+              <p class="card-text">R$ 72,90</p>
+
+            </div>
+          </div>
+        </div>
+        <!-- /Produto -->
+
+        <!-- Produto -->
+        <div class="col-md-3">
+          <div class="card rounded-0 border-0" style="height: 70vh;">
+            <img style="height: 50vh;" src="assets/images/produtos/thumb/Remus-Lupin-Sangue-Novo.jpeg" class="card-img-top rounded-0"
+              alt="...">
+            <div class="card-body">
+
+              <h5 class="card-title">Remus Lupin e a Maldição de Sangue Novo</h5>
+
+              <p class="card-text text-quartenary">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+
+              </p>
+
+              <p class="card-text">R$ 69,90</p>
+
+            </div>
+          </div>
+        </div>
+        <!-- /Produto -->
+
+        <!-- Produto -->
+        <div class="col-md-3">
+          <div class="card rounded-0 border-0" style="height: 70vh;">
+            <img style="height: 50vh;" src="assets/images/produtos/thumb/Os-Malfoy-Parte-2.png" class="card-img-top rounded-0" alt="...">
+            <div class="card-body">
+
+              <h5 class="card-title">Os Malfoy: Sangue, Poder e a Ascensão de Lúcio Parte 2</h5>
+
+              <p class="card-text text-quartenary">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </p>
+
+              <p class="card-text">R$ 63,90</p>
+
+            </div>
+
+          </div>
+
+          <div class="alert alert-info mt-3 text-tertiary" role="alert">Vencedor do Prêmio Internacional Booker</div>
+        </div>
+        <!-- /Produto -->
+
+        <!-- Produto -->
+        <div class="col-md-3">
+          <div class="card rounded-0 border-0" style="height: 70vh;">
+            <img style="height: 50vh;" src="assets/images/produtos/thumb/Draco-Malfoy.jpeg" class="card-img-top rounded-0" alt="...">
+            <div class="card-body">
+
+              <h5 class="card-title">Draco Malfoy: O Caminho para a Redenção</h5>
+
+              <p class="card-text text-quartenary">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </p>
+
+              <p class="card-text">R$ 67,90</p>
+
+            </div>
+          </div>
+
+          <div class="alert alert-warning mt-3 text-tertiary" role="alert">Este produto está com poucas unidades!</div>
+        </div>
+        <!-- /Produto -->
+
+
+      </div>
+
+    </div>
+
+  </main>
+  <!-- /.produtos -->
+
+  <section class="container veja-mais">
+
+    <div class="d-flex justify-content-center mb-5">
+      <div class="btn btn-lg btn-warning text-uppercase rounded-pill px-4"><a class="text-decoration-none text-primary" href="produtos.html">Veja Mais</a></div>
+    </div>
+
+  </section>
+  <!-- /.veja-mais -->
+
+  </div>
+<footer class="bg-cor-secundaria text-white">
+
+    <div class="container py-5">
+
+      <div class="row">
+
+        <div class="col-md-3">
+
+          <h5 class="text-quartenary">Atendimento</h5>
+
+          <ul>
+            <li>(11) 999999999</li>
+            <li>email@gmail.com</li>
+            <li>segunda a sexta das 09h00 as 17h00</li>
+          </ul>
+        </div>
+
+        <div class="col-md-3">
+
+          <h5 class="text-quartenary">Atendimento</h5>
+
+          <ul>
+            <li>(11) 999999999</li>
+            <li>email@gmail.com</li>
+            <li>segunda a sexta das 09h00 as 17h00</li>
+          </ul>
+        </div>
+
+        <div class="col-md-3">
+
+          <h5 class="text-quartenary">Atendimento</h5>
+
+          <ul>
+            <li>(11) 999999999</li>
+            <li>email@gmail.com</li>
+            <li>segunda a sexta das 09h00 as 17h00</li>
+          </ul>
+        </div>
+
+        <div class="col-md-3 mb-5 mb-md-0">
+
+          <h5 class="text-quartenary">Atendimento</h5>
+
+          <ul>
+            <li>(11) 999999999</li>
+            <li>email@gmail.com</li>
+            <li>segunda a sexta das 09h00 as 17h00</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+  <script src="assets/scripts/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
