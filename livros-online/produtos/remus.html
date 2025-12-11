@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" href="../assets/images/favicon/favicon-16x16.png" type="image/png">
+
+  <title>Produto</title>
+
+  <link href="../assets/styles/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="../assets/styles/app.css">
+  <link rel="stylesheet" href="../assets/styles/produtos.css">
+
+</head>
+
+<body>
+
+  <!-- cabeçalho principal -->
+  <header class="bg-cor-primaria">
+
+    <div class="container">
+
+      <div class="row d-flex justify-content-around">
+
+        <div class="caixa-imagem col-lg-2 my-4 text-center text-lg-start">
+          <img class="logo-harry h-100 w-75 rounded-4" src="../assets/images/logo harry potter.jpeg" alt="">
+        </div>
+
+        <div class="col-lg-7 my-4 d-flex align-items-center">
+          <form action="" class="site-search w-100">
+
+            <div class="input-group">
+              <input type="text" class="form-control rounded-pill py-2 px-4 pe-5" placeholder="escolha seu estilo aqui...">
+              <button class="btn position-absolute"> <i class="bi bi-search"></i> </button>
+            </div>
+
+          </form>
+        </div>
+
+        <div class="col-lg-3 d-flex align-items-center justify-content-end">
+
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link text-quartenary" href="#"><i class="bi bi-person-fill"></i> entrar</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-quartenary" href="#"><i class="bi bi-cart-fill position-relative">
+                 <span class="badge position-absolute top-0 start-100 translate-middle bg-danger rounded-circle">3 </span>
+              </i> carrinho</a>
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </header>
+  <!-- /cabeçalho principal -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-cor-secundaria sticky-top">
+
+    <div class="container">
+
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-principal">
+        <i class="navbar-toggler-icon"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menu-principal">
+
+        <ul class="navbar-nav ">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Gêneros de livros</a>
+
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Lançamentos</a></li>
+              <li><a class="dropdown-item" href="#">Suspense</a></li>
+              <li><a class="dropdown-item" href="#">Aventura</a></li>
+            </ul>
+
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!-- /.navbar -->
+
+
+<div class="bg-cor-quintenary">
+
+<main class="produto">
+
+    <div class=container>
+
+        <nav class="mt-4" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="../produtos.html">Produtos</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Remus Lupin</li>
+            </ol>
+        </nav>
+
+        <!-- Imagem e informação -->
+        <div class="row">
+            <div class="col-md-7 d-flex justify-content-center align-items-center" style="height: 60vh;">
+                <img class="h-100" src="../assets/images/produtos/thumb/Remus-Lupin-Sangue-Novo.jpeg" alt="">
+            </div>
+
+            <div class="col-md-5">
+                <h1 class="">Remus Lupin e a Maldição de Sangue Novo</h1>
+                <p>"Uma história focada na adolescência de Remus fora de Hogwarts, passando cada lua cheia, sua luta para gerenciar sua licantropia e os desafios de tentar se integrar na sociedade bruxa em guerra."</p>
+
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+
+            
+
+                <h5 class="preco mt-3">R$69,90</h5>
+                <span>Em até 12x sem juros</span>
+
+                <div class="comprar mt-2">
+                    <form action="">
+
+                        <select class="form-select" aria-label="Default select example">
+                            <option value="1">1x</option>
+                            <option value="2">3x</option>
+                            <option value="3">6x</option>
+                            <option value="4">12x</option>
+                        </select>
+
+                        <btn type="submit" class="btn btn-success mt-4 w-100">Comprar</btn>
+
+
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- /.imagem e informação -->
+
+        <div class="row mt-5">
+            <div class="col">
+                <div class="fb-comments"
+                    data-href="https://www.seusite.com/pagina"
+                    data-width="100%"
+                    data-numposts="5">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</main>
+
+<script async defer crossorigin="anonymous" 
+        src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v19.0">
+</script>
+
+</div>
+
+<footer class="bg-cor-secundaria text-white">
+
+    <div class="container py-5">
+
+      <div class="row">
+
+        <div class="col-md-3">
+
+          <h5 class="text-quartenary">Endereço</h5>
+
+          <ul>
+            <li>Rua das Corujas, 237 – Bairro Floresta Encantada</li>
+            <li>Curitiba – PR, Brasil/li>
+            <li>CEP: 80500-410</li>
+          </ul>
+        </div>
+
+        <div class="col-md-3">
+
+          <h5 class="text-quartenary">Contato</h5>
+
+          <ul>
+            <li>contato@wizardbooks.com.br</li>
+            <li>suporte@wizardbooks.com.br</li>
+            <li>Whatsapp: (41) 9 9982-4431</li>
+          </ul>
+        </div>
+
+        <div class="col-md-3">
+
+          <h5 class="text-quartenary">Horário de Atendimento</h5>
+
+          <ul>
+            <li>Segunda a Sexta: 08h às 18h</li>
+            <li>Sábados: 09h às 14h</li>
+            <li>Domingos e feriados: atendimento via e-mail</li>
+          </ul>
+        </div>
+
+        <div class="col-md-3 mb-5 mb-md-0">
+
+          <h5 class="text-quartenary">Segurança</h5>
+
+          <ul>
+            <li>Site com certificado SSL</li>
+            <li>Dados criptografados</li>
+            <li>Pagamentos processados por operadoras certificadas PCI-DSS</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+  <script src="../assets/scripts/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

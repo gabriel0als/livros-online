@@ -1,0 +1,18 @@
+.card-produto {
+
+    .bi-star-fill {
+        color: var(--cor-quartenaria);
+    }
+
+}
+
+.produto {
+    .bi-star-fill {
+        color: var(--cor-quartenaria)
+    }
+
+    .preco {
+        font-size: 35px;
+        font-weight: bold;
+    }
+}
